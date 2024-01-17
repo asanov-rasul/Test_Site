@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Можете писать ваши ежедневные задачи">
+    <title>My Tasks</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="filter">
+                <ul class="filter_list" id="filterList">
+                    <li class="filter_item active_filter" data-action="filter">
+                        Все задачи
+                    </li>
+                    <li class="filter_item" data-action="filter">
+                        Выполненные
+                    </li>
+                    <li class="filter_item" data-action="filter">
+                        Не выполненные
+                    </li>
+                </ul>
+            </div>
+            <form class="main_form" id="form">
+                <p>Добавить задачу</p>
+                <input class="task_input" id="taskInput" type="text" required placeholder="Напишите задачу"></input>
+                <button type="submit" class="btn">Добавить</button>
+            </form>
+            <div class="my_tasks">
+                <ul class="tasks_list" id="tasksList">
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
