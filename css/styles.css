@@ -159,7 +159,7 @@
     width: 33px;
     height: 33px;
     position: absolute;
-    right: 55px;
+    right: 60px;
     cursor: pointer;
     user-select: none;
 }
@@ -262,6 +262,10 @@ svg path, svg polygon {
         width: 25px;
         height: 25px;
         right: 15px;
+    }
+
+    .task_edit {
+        right: 50px;
     }
 
     .date {
